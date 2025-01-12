@@ -19,7 +19,7 @@ header nav {
 h1 {
     color: white;
 }
-header a {
+a {
     font-weight: 600;
     font-style: normal;
     text-decoration: none;
