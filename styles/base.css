@@ -16,6 +16,9 @@ header nav {
     justify-content: space-around;
     background-color: #f0f0f0;
 }
+header nav a:hover{
+    text-decoration:overline 2px;
+}
 h1 {
     color: white;
 }
@@ -28,6 +31,8 @@ a {
 }
 
 main {
+    max-width: 1450px;
+    margin: 0 auto;
     padding: 20px;
     display: grid;
     grid-template-columns: 2fr 1fr;
