@@ -8,7 +8,7 @@ body {
 }
 
 header {
-	background-color: #bbb;
+	background-color: #A6A6A6;
 	display: grid;
 	grid-gap: 1rem;
 	padding: 20px;
@@ -42,7 +42,7 @@ h1 {
 }
 
 nav {
-	background-color:#E2C79C;
+	background-color:#E1C095;
 }
 
 nav ul {
@@ -60,7 +60,7 @@ nav ul {
 
 nav a {
 	display: block;
-	color: #fff;
+	color: black;
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
@@ -85,7 +85,7 @@ img{
 	grid-gap: 10px;
 }
 footer {
-    background-color: #E2C79C;
+    background-color: #E1C095;
     padding: 20px;
 	margin:30px;
     text-align: center;
@@ -97,7 +97,7 @@ figcaption{
     color: black;
 }
 #lastdate{
-    color: #908516;
+    color: black;
 }
 
 
