@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippines</title>
+    <link rel="icon" href="images/filipino.png">
+    <meta name="description" content="Getting to know the Philippines">
+    <meta name="author" content="Guillermo Aguirre"> 
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&family=Nosifer&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Philippines</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="hero"> 
+                <picture>
+                    <source media="(max-width: 650px)" srcset="images/eagle.webp" >
+                    <source media="(min-width:900px)" srcset="images/puerto-princesa.webp">
+                    <img src="images/puerto-princesa.webp" alt="puerto-princesa">
+                </picture>
+            </div>
+
+            <section class="child1">
+
+                <h2>Data</h2>
+                <ul>
+                    <li><b>Area: 300,000 sq km</b></li>
+                    <li><b>Population: 113,269,000 (2023 estimate)
+                    </b></li>
+                    <li><b>Capital: Manila</b></li>
+                    <li><b>Languages: Filipino, English</b></li>
+                    <li><b>Currency: Philippine Peso (PHP)</b></li>
+                    <li><b>Time Zone: UTC+8</b></li>
+                    <li><b>Calling Code: +63</b></li>
+                    <li><b>Internet TLD: .ph</b></li>
+                </ul>
+            </section>
+            <section class="child2">
+                <div>
+                    <h2 class="before">Weather </h2>
+                    <img class="emoji" src="images/sunny_icon.svg" alt="emoji">
+                </div>
+                <ul id="list-container"></ul>
+                
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p id="year"> </p>
+        <p id="lastdate"></p>
+
+    </footer>
+    
+</body>
+</html>
