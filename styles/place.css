@@ -9,7 +9,7 @@
     --font-color:#453228;
 }
 body {
-    font-family: "julee", sans-serif;
+    font-family: "julee", serif;
 }
 header{
     background: var(--secondary-color);
