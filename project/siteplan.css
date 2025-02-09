@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color: #FAF2E9;
     color: black;
+    font-family: "vollkorn";
 }
 h1{
-text-align: center;
-padding: 20px;
+    font-family: "julee", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+    color: #453228;
 }
 section {
     display: grid;
@@ -18,24 +22,12 @@ section {
     margin-top: 40px;
 }
 h4{
+    font-family: "julee";
     display: flex;
     justify-content: center;
+    color: #453228;
 }
 
-.color1{
-    background: #6DD3C5;
-    width: 15px;
-}
-.color2{
-    background: #FAF2E9;
-    width: 15px;
-}
-.Julee{
-    font-family: "julee";
-}
-.Vollkorn{
-    font-family: "vollkorn";
-}
 li{
 
     margin-bottom: 20px;
@@ -44,6 +36,8 @@ li{
 footer p{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    background: #6DD3C5;
+    padding: 20px;
+
 
 }
