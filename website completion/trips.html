@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips | PhilTour</title>
+    <meta name="description" content="This page gives information about the trips that our company has">
+    <meta name="author" content="Guillermo Aguirre">
+    <link rel="stylesheet" href="styles/philippines.css">
+    <script src="scripts/trips.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="images/logo.svg" alt="logo">
+            </div>
+            <button class="navbutton">&#9776;</button>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="search">
+            <div class="search-container">
+                <h2>Search for Tourist Spots in the Philippines</h2>
+                <input type="text" id="search-box" placeholder="Type a place...">
+                <ul id="places-list"></ul>
+            </div>
+        
+            <div id="place-info" class="hidden">
+                <h3 id="place-name">></h3>
+                <p id="place-description"></p>
+                <p><strong>Price per trip:</strong> <span id="place-price"></span></p>
+                <p><strong>Tour duration:</strong> <span id="place-duration"></span></p>
+                <div id="place-image"></div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <h4>Follow us and be the first to know about news and get updates, new releases and special offers.</h4>
+        <div class="social">
+            <nav>
+                <a href="https://www.facebook.com/">
+                    <img src="images/icon-social-facebook-64.webp" alt="Facebook" loading="lazy">
+                </a>
+                <a href="https://www.instagran.com/">
+                    <img src="images/instagram-logo-64.webp" alt="Instagran" loading="lazy">
+                </a>
+                <a href="https://www.twiter.com/">
+                    <img src="images/43-twitter-64.webp" alt="Twiter" loading="lazy">
+                </a>
+            </nav>
+        </div>
+        <p>©2025 | PhilTour | Guillermo Aguirre </p>
+    </footer>
+</body>
+</html>
